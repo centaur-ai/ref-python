@@ -1,5 +1,6 @@
 from .logger import setup_logger
 
+
 class Calculator:
     def __init__(self):
         self.result = 0
