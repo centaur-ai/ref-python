@@ -14,3 +14,7 @@ flake8 = "^7.1.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+test = "pytest:main"
+lint = "scripts.lint:main"
